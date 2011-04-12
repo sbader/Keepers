@@ -7,7 +7,7 @@ The file includes/config.php has all of the setup for the MySQL database. A data
 
 A database user with Select, Insert, Update and Delete privileges will need to be used for the variable $dbuser along with that user's password for $dbpassword
 
-##License
+##License (MIT License)
 
 Copyright (c) 2011 Scott Bader
 
