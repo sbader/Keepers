@@ -1,0 +1,383 @@
+/* line 6, ../../../../Ruby/Gems/1.8/gems/compass-0.10.0.pre2/lib/compass/frameworks/compass/stylesheets/compass/utilities/general/_reset.sass */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 17, ../../../../Ruby/Gems/1.8/gems/compass-0.10.0.pre2/lib/compass/frameworks/compass/stylesheets/compass/utilities/general/_reset.sass */
+*:focus {
+  outline: 0;
+}
+
+/* line 20, ../../../../Ruby/Gems/1.8/gems/compass-0.10.0.pre2/lib/compass/frameworks/compass/stylesheets/compass/utilities/general/_reset.sass */
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+
+/* line 23, ../../../../Ruby/Gems/1.8/gems/compass-0.10.0.pre2/lib/compass/frameworks/compass/stylesheets/compass/utilities/general/_reset.sass */
+ol, ul {
+  list-style: none;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+/* line 27, ../../../../Ruby/Gems/1.8/gems/compass-0.10.0.pre2/lib/compass/frameworks/compass/stylesheets/compass/utilities/general/_reset.sass */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../Ruby/Gems/1.8/gems/compass-0.10.0.pre2/lib/compass/frameworks/compass/stylesheets/compass/utilities/general/_reset.sass */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 33, ../../../../Ruby/Gems/1.8/gems/compass-0.10.0.pre2/lib/compass/frameworks/compass/stylesheets/compass/utilities/general/_reset.sass */
+q, blockquote {
+  quotes: "" "";
+}
+/* line 101, ../../../../Ruby/Gems/1.8/gems/compass-0.10.0.pre2/lib/compass/frameworks/compass/stylesheets/compass/utilities/general/_reset.sass */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+}
+
+/* line 36, ../../../../Ruby/Gems/1.8/gems/compass-0.10.0.pre2/lib/compass/frameworks/compass/stylesheets/compass/utilities/general/_reset.sass */
+a img {
+  border: none;
+}
+
+/* incase an inverted custom gradient isn't specified */
+
+/* line 23, ../src/screen.sass */
+body {
+  background-color: #dddddd;
+  color: #333333;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* line 29, ../src/screen.sass */
+body a, body a:visited {
+  color: #0a50c8;
+}
+/* line 31, ../src/screen.sass */
+body a:hover {
+  text-decoration: underline;
+}
+/* line 33, ../src/screen.sass */
+body input[type="submit"], body input[type="button"] {
+  font-family: "Lucida Grande", Lucida, Arial, sans_serif;
+  background: url('../images/button_bg.png?1263495169') repeat-x bottom left;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  font-weight: bold;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  font-size: 18px;
+  line-height: 21.6px;
+  padding: 5px 18px;
+  border-width: 1px;
+  background-color: #004dd2;
+  background: -webkit-gradient(linear, left top, left bottom, from(#81aef9), to(#0c57db), color-stop(10%, #2a75f4), color-stop(50%, #0a4aba), color-stop(50%, #0944ab));
+  background: -moz-linear-gradient(left top, left bottom, from(#81aef9), to(#0c57db), color-stop(10%, #2a75f4), color-stop(50%, #0a4aba), color-stop(50%, #0944ab));
+  border-color: #06337f;
+  text-shadow: #001e52 0px 1px 1px;
+  color: white;
+  border-radius: 14px;
+  -moz-border-radius: 14px;
+  -webkit-border-radius: 14px;
+  font-size: 16px;
+  line-height: 19.2px;
+  padding: 4px 16px;
+  border-width: 1px;
+}
+/* line 161, ../../../../Ruby/Gems/1.8/gems/fancy-buttons-0.3.7/lib/sass/_fancy_buttons.sass */
+body input[type="submit"]::-moz-focus-inner, body input[type="button"]::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+/* line 164, ../../../../Ruby/Gems/1.8/gems/fancy-buttons-0.3.7/lib/sass/_fancy_buttons.sass */
+body input[type="submit"]:focus, body input[type="button"]:focus {
+  outline: none;
+}
+/* line 166, ../../../../Ruby/Gems/1.8/gems/fancy-buttons-0.3.7/lib/sass/_fancy_buttons.sass */
+body input[type="submit"].disabled, body input[type="submit"][disabled], body input[type="button"].disabled, body input[type="button"][disabled] {
+  opacity: 0.7;
+  -moz-opacity: 0.7;
+  -khtml-opacity: 0.7;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  filter: alpha(opacity=70);
+}
+/* line 171, ../../../../Ruby/Gems/1.8/gems/fancy-buttons-0.3.7/lib/sass/_fancy_buttons.sass */
+body input[type="submit"].disabled:hover, body input[type="submit"].disabled:focus, body input[type="submit"][disabled]:hover, body input[type="submit"][disabled]:focus, body input[type="button"].disabled:hover, body input[type="button"].disabled:focus, body input[type="button"][disabled]:hover, body input[type="button"][disabled]:focus {
+  cursor: default;
+}
+/* line 142, ../../../../Ruby/Gems/1.8/gems/fancy-buttons-0.3.7/lib/sass/_fancy_buttons.sass */
+body input[type="submit"]:active, body input[type="button"]:active {
+  padding: 4px 17px;
+  border-width: 2px;
+}
+/* line 145, ../../../../Ruby/Gems/1.8/gems/fancy-buttons-0.3.7/lib/sass/_fancy_buttons.sass */
+body input[type="submit"].disabled:active, body input[type="submit"][disabled], body input[type="button"].disabled:active, body input[type="button"][disabled] {
+  padding: 5px 18px;
+  border-width: 1px;
+}
+/* line 23, ../../../../Ruby/Gems/1.8/gems/fancy-buttons-0.3.7/lib/sass/_fancy_buttons.sass */
+body input[type="submit"].disabled:active, body input[type="submit"].disabled:hover, body input[type="submit"][disabled]:active, body input[type="submit"][disabled]:hover, body input[type="button"].disabled:active, body input[type="button"].disabled:hover, body input[type="button"][disabled]:active, body input[type="button"][disabled]:hover {
+  background-color: #004dd2;
+  background: -webkit-gradient(linear, left top, left bottom, from(#81aef9), to(#0c57db), color-stop(10%, #2a75f4), color-stop(50%, #0a4aba), color-stop(50%, #0944ab));
+  background: -moz-linear-gradient(left top, left bottom, from(#81aef9), to(#0c57db), color-stop(10%, #2a75f4), color-stop(50%, #0a4aba), color-stop(50%, #0944ab));
+  border-color: #06337f;
+  text-shadow: #001e52 0px 1px 1px;
+  color: white;
+}
+/* line 25, ../../../../Ruby/Gems/1.8/gems/fancy-buttons-0.3.7/lib/sass/_fancy_buttons.sass */
+body input[type="submit"]:hover, body input[type="submit"]:focus, body input[type="button"]:hover, body input[type="button"]:focus {
+  background-color: #0048c2;
+  background: -webkit-gradient(linear, left top, left bottom, from(#73a4f8), to(#0a51cd), color-stop(10%, #1b6bf4), color-stop(50%, #0944ab), color-stop(50%, #083e9c));
+  background: -moz-linear-gradient(left top, left bottom, from(#73a4f8), to(#0a51cd), color-stop(10%, #1b6bf4), color-stop(50%, #0944ab), color-stop(50%, #083e9c));
+  border-color: #052d70;
+  text-shadow: #001942 0px 1px 1px;
+  color: white;
+}
+/* line 30, ../../../../Ruby/Gems/1.8/gems/fancy-buttons-0.3.7/lib/sass/_fancy_buttons.sass */
+body input[type="submit"]:active, body input[type="button"]:active {
+  background-color: #0042b4;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0844ab), to(#0a53d2), color-stop(30%, #0947b5), color-stop(50%, #0840a1), color-stop(50%, #073a93));
+  background: -moz-linear-gradient(left top, left bottom, from(#0844ab), to(#0a53d2), color-stop(30%, #0947b5), color-stop(50%, #0840a1), color-stop(50%, #073a93));
+  border-color: #052762;
+  text-shadow: #001335 0px -1px -1px;
+  color: white;
+}
+/* line 142, ../../../../Ruby/Gems/1.8/gems/fancy-buttons-0.3.7/lib/sass/_fancy_buttons.sass */
+body input[type="submit"]:active, body input[type="button"]:active {
+  padding: 3px 15px;
+  border-width: 2px;
+}
+/* line 145, ../../../../Ruby/Gems/1.8/gems/fancy-buttons-0.3.7/lib/sass/_fancy_buttons.sass */
+body input[type="submit"].disabled:active, body input[type="submit"][disabled], body input[type="button"].disabled:active, body input[type="button"][disabled] {
+  padding: 4px 16px;
+  border-width: 1px;
+}
+/* line 37, ../src/screen.sass */
+body div#leftcol {
+  float: left;
+  display: inline-block;
+}
+/* line 40, ../src/screen.sass */
+body div#leftcol form#playerform {
+  display: block;
+}
+/* line 42, ../src/screen.sass */
+body div#leftcol form#playerform fieldset {
+  background-color: white;
+  border: 2px solid #0a50c8;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  width: 400px;
+  padding: 5px;
+}
+/* line 48, ../src/screen.sass */
+body div#leftcol form#playerform fieldset div {
+  display: block;
+  width: 200px;
+  margin-bottom: 10px;
+}
+/* line 52, ../src/screen.sass */
+body div#leftcol form#playerform fieldset div label {
+  width: 400px;
+}
+/* line 54, ../src/screen.sass */
+body div#leftcol form#playerform fieldset div label.error {
+  color: red;
+  margin-top: 6px;
+  display: block;
+}
+/* line 58, ../src/screen.sass */
+body div#leftcol form#playerform fieldset div input[type="text"] {
+  width: 390px;
+  font-size: 14px;
+}
+/* line 61, ../src/screen.sass */
+body div#leftcol form#playerform fieldset div input[type="text"]#points {
+  font-size: 16px;
+  width: 100px;
+}
+/* line 64, ../src/screen.sass */
+body div#leftcol form#playerform fieldset div input[type="text"].error {
+  border: 1px solid red;
+}
+/* line 66, ../src/screen.sass */
+body div#leftcol form#playerform fieldset div div.error {
+  width: 390px;
+  color: red;
+}
+/* line 69, ../src/screen.sass */
+body div#leftcol table {
+  width: 414px;
+  background-color: white;
+  border: 2px solid #0a50c8;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px;
+}
+/* line 76, ../src/screen.sass */
+body div#leftcol table tr {
+  width: 400px;
+}
+/* line 78, ../src/screen.sass */
+body div#leftcol table tr.newtr {
+  background-color: #ffec8b;
+}
+/* line 80, ../src/screen.sass */
+body div#leftcol table tr th {
+  font-size: 16px;
+  font-weight: bold;
+  /* border-bottom= 1px "solid" !linegrey */
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+}
+/* line 87, ../src/screen.sass */
+body div#leftcol table tr td {
+  border-top: 1px solid #dddddd;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+}
+/* line 92, ../src/screen.sass */
+body div#leftcol table tr td.name {
+  width: 250px;
+  border-right: 1px solid #dddddd;
+}
+/* line 95, ../src/screen.sass */
+body div#leftcol table tr td.points {
+  width: 75px;
+  border-right: 1px solid #dddddd;
+}
+/* line 98, ../src/screen.sass */
+body div#leftcol table tr td.def {
+  width: 75px;
+  text-align: center;
+  border-right: 1px solid #dddddd;
+}
+/* line 102, ../src/screen.sass */
+body div#leftcol table tr td.def a {
+  cursor: pointer;
+}
+/* line 104, ../src/screen.sass */
+body div#leftcol table tr td.del {
+  width: 75px;
+  text-align: center;
+}
+/* line 107, ../src/screen.sass */
+body div#leftcol table tr td.del a {
+  cursor: pointer;
+}
+/* line 109, ../src/screen.sass */
+body div#rightcol {
+  margin-left: 10px;
+  float: left;
+  display: inline-block;
+}
+/* line 113, ../src/screen.sass */
+body div#rightcol div#rightdiv {
+  width: 400px;
+  border: 2px solid #0a50c8;
+  background-color: white;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 5px;
+}
+/* line 120, ../src/screen.sass */
+body div#rightcol div#rightdiv form fieldset {
+  padding-left: 10px;
+}
+/* line 122, ../src/screen.sass */
+body div#rightcol div#rightdiv form fieldset div {
+  display: block;
+  width: 200px;
+  margin-bottom: 10px;
+}
+/* line 126, ../src/screen.sass */
+body div#rightcol div#rightdiv form fieldset div label {
+  width: 400px;
+}
+/* line 128, ../src/screen.sass */
+body div#rightcol div#rightdiv form fieldset div input[type="text"] {
+  width: 120px;
+  font-size: 14px;
+}
+/* line 131, ../src/screen.sass */
+body div#rightcol div#rightdiv form fieldset div div.error {
+  width: 390px;
+  color: red;
+}
+/* line 134, ../src/screen.sass */
+body div#rightcol table {
+  width: 414px;
+  background-color: white;
+  border: 2px solid #0a50c8;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+}
+/* line 141, ../src/screen.sass */
+body div#rightcol table tr {
+  width: 400px;
+}
+/* line 143, ../src/screen.sass */
+body div#rightcol table tr th {
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid #dddddd;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+}
+/* line 150, ../src/screen.sass */
+body div#rightcol table tr td {
+  border-bottom: 1px solid #dddddd;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+}
+/* line 155, ../src/screen.sass */
+body div#rightcol table tr td.name {
+  width: 300px;
+  border-right: 1px solid #dddddd;
+}
+/* line 158, ../src/screen.sass */
+body div#rightcol table tr td.points {
+  width: 100px;
+}

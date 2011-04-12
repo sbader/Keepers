@@ -1,0 +1,160 @@
+@import compass/reset.sass
+@import border-radius.sass
+@import compass/utilities.sass
+@import fancy_buttons.sass
+
+=radius(!radius)
+  +border-radius(!radius)
+
+!green = #008700
+!grey = #bbb
+!linegrey = #ddd
+!textdarkgrey = #333
+!textlightergrey = #555
+!lightgrey = #ddd
+!formgrey = #f2f2f2
+!darkgrey = #aaa
+!red = #FF0000
+!coolblue = #007abc
+!buttonblue = rgb(10,80,200)
+!yellow = #FFEC8B
+!white = #FFFFFF
+
+body
+  background-color= !lightgrey
+  color= !textdarkgrey
+  margin-left: 10px
+  margin-top: 10px
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+  a, a:visited
+    color= !buttonblue
+  a:hover
+    text-decoration: underline
+  input[type="submit"], input[type="button"]
+    +fancy-button-structure
+    +fancy-button-colors(!buttonblue)
+    +fancy-button-size(16px,14px)
+  div#leftcol
+    float: left
+    display: inline-block
+    form#playerform
+      display: block
+      fieldset
+        background-color= !white
+        border= 2px "solid" !buttonblue
+        +radius("5px")
+        width: 400px
+        padding: 5px
+        div
+          display: block
+          width: 200px
+          margin-bottom: 10px
+          label
+            width: 400px
+            &.error
+              color= !red
+              margin-top: 6px
+              display: block
+          input[type="text"]
+            width: 390px
+            font-size: 14px
+            &#points
+              font-size: 16px
+              width: 100px
+            &.error
+              border= 1px "solid" !red
+          div.error
+            width: 390px
+            color= !red
+    table
+      width: 414px
+      background-color= !white
+      border= 2px "solid" !buttonblue 
+      +radius("5px")
+      margin-top: 10px
+      padding: 5px
+      tr
+        width: 400px
+        &.newtr
+          background-color= !yellow
+        th
+          font-size: 16px
+          font-weight: bold
+          /*border-bottom= 1px "solid" !linegrey*/
+          padding-top: 2px
+          padding-bottom: 2px
+          padding-left: 4px
+        td
+          border-top= 1px "solid" !linegrey
+          padding-top: 2px
+          padding-bottom: 2px
+          padding-left: 4px
+          &.name
+            width: 250px
+            border-right= 1px "solid" !linegrey
+          &.points
+            width: 75px
+            border-right= 1px "solid" !linegrey
+          &.def
+            width: 75px
+            text-align: center
+            border-right= 1px "solid" !linegrey
+            a
+              cursor: pointer
+          &.del
+            width: 75px
+            text-align: center
+            a
+              cursor: pointer
+  div#rightcol
+    margin-left: 10px
+    float: left
+    display: inline-block
+    div#rightdiv
+      width: 400px
+      border= 2px "solid" !buttonblue
+      background-color= !white
+      +radius("5px")
+      padding: 5px
+      form
+        fieldset
+          padding-left: 10px
+          div
+            display: block
+            width: 200px
+            margin-bottom: 10px
+            label
+              width: 400px
+            input[type="text"]
+              width: 120px
+              font-size: 14px
+            div.error
+              width: 390px
+              color= !red
+    table
+      width: 414px
+      background-color= !white
+      border= 2px "solid" !buttonblue 
+      +radius("5px")
+      padding: 5px
+      margin-top: 10px
+      tr
+        width: 400px
+        th
+          font-size: 16px
+          font-weight: bold
+          border-bottom= 1px "solid" !linegrey
+          padding-top: 2px
+          padding-bottom: 2px
+          padding-left: 4px
+        td
+          border-bottom= 1px "solid" !linegrey
+          padding-top: 2px
+          padding-bottom: 2px
+          padding-left: 4px
+          &.name
+            width: 300px
+            border-right= 1px "solid" !linegrey
+          &.points
+            width: 100px
+        
